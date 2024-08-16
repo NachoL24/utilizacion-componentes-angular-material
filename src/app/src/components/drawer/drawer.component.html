@@ -6,10 +6,11 @@
     (opened)="events.push()"
     (closed)="events.push()"
   >
-    Sidenav content
+    <app-drawer-list></app-drawer-list>
   </mat-sidenav>
 
   <mat-sidenav-content>
     <app-toolbar [sidenav]="sidenav"></app-toolbar>
+    <app-login/>
   </mat-sidenav-content>
 </mat-sidenav-container>

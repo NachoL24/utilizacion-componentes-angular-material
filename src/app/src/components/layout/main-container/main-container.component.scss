@@ -1,0 +1,10 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total */
+    overflow: auto; /* Permite el desplazamiento solo cuando sea necesario */
+}

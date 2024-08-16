@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { ToolbarComponent } from "../toolbar/toolbar.component";
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { DrawerListComponent } from "./drawer-list/drawer-list.component";
+import { MainContainerComponent } from "../layout/main-container/main-container.component";
+import { LoginComponent } from "../login/login.component";
 
 @Component({
   selector: 'app-drawer',
   standalone: true,
-  imports: [ToolbarComponent, MatSidenavModule],
+  imports: [ToolbarComponent, MatSidenavModule, DrawerListComponent, MainContainerComponent, LoginComponent],
   templateUrl: './drawer.component.html',
   styleUrl: './drawer.component.scss'
 })
