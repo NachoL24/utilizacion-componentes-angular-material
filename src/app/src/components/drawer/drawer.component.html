@@ -1,0 +1,15 @@
+<!-- src/app/src/components/toolbar/toolbar.component.html -->
+<mat-sidenav-container class="example-container">
+  <mat-sidenav
+    #sidenav
+    mode="over"
+    (opened)="events.push()"
+    (closed)="events.push()"
+  >
+    Sidenav content
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-toolbar [sidenav]="sidenav"></app-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>
