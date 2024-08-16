@@ -1,5 +1,14 @@
 <app-main-container>    
     <mat-card appearance="outlined">
-        <mat-card-content>Simple card</mat-card-content>
+        <mat-card-title>
+            <h4>Log In</h4>
+        </mat-card-title>
+        <mat-card-content>
+            <form>
+                <app-email-input></app-email-input>
+                <app-password-input></app-password-input>
+                <button mat-flat-button type="submit">Log In</button>
+            </form>
+        </mat-card-content>
     </mat-card>
 </app-main-container>
