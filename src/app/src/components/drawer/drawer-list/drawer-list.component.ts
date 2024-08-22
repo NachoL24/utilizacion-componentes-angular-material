@@ -17,6 +17,9 @@ export class DrawerListComponent {
     { id: 3, name: 'mat-inputs' },
     { id: 4, name: 'mat-card' },
     { id: 5, name: 'mat-buttons' },
-    { id: 6, name: 'mat-divider' }
+    { id: 6, name: 'mat-divider' },
+    { id: 7, name: 'mat-list' },
+    { id: 8, name: 'mat-list-item' },
+    { id: 9, name: 'mat-Snack-bar' },
   ];
 }
